@@ -379,8 +379,6 @@ nav h1 {
     margin-left: 10%;
     display: flex;
     flex-direction: row;
-
-    margin-bottom: 500px;
 }
 
 .section_4 .left {
@@ -421,4 +419,142 @@ nav h1 {
     height: 4em;
     color: var(--main);
     width: 10em;
+}
+
+.section_5 {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 18rem;
+    align-items: center;
+}
+
+.section_5 .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.section_5 .left h3 {
+    font-size: 2.5rem;
+    color: var(--main);
+    width: 60%;
+    font-weight: bold;
+}
+
+.section_5 .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_5 .right .top {
+    display: flex;
+    flex-direction: row;
+}
+
+.section_5 .right .top .title {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: var(--main);
+    margin-right: 10%;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.section_5 .right .top .title_active::after {
+    content: '';
+    position: absolute;
+    bottom: -0.6em;
+    left: 25px;
+    width: 50%;
+    height: 4px;
+    background-color: var(--orange);
+}
+
+.section_5_content {
+    width: 70%;
+    color: #929b9f;
+    line-height: 1.4em;
+    margin-top: 1em;
+}
+
+.section_6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+.section_6 .card {
+    height: 16rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-around;
+    position: relative;
+    background-color: var(--background);
+}
+
+.section_6 .card img {
+    height: 4.6rem;
+    width: 4.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.section_6 .card h4 {
+    font-size: 1.4rem;
+    color: var(--main);
+    padding-left: 15px;
+
+}
+
+.section_6 .card p {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    padding-left: 15px;
+    font-size: 1rem;
+    color: #929b9f;
+}
+
+.section_6 .card:first-child .card_underlined {
+    height: 6px;
+    width: 95%;
+    background-color: var(--orange);
+    position: absolute;
+    bottom: 1rem;
+}
+
+.greyshit {
+    position: absolute;
+    top: calc(50% - 13px);
+    left: 32.4%;
+    width: 26px;
+    height: 26px;
+    background-color: #d7dee0;
+    z-index: -1;
+}
+
+.greyshit_b {
+    position: absolute;
+    top: calc(50% - 13px);
+    right: 32.4%;
+    width: 26px;
+    height: 26px;
+    background-color: #d7dee0;
+    z-index: -1;
 }
